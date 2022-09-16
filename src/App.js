@@ -1,24 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import './styles/home.css';
+import { Routes, Route } from 'react-router-dom';
+import { Home } from './pages/Home';
+import { ExpiriencePage } from './pages/ExpiriencePage';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    <Routes> {/* The Switch decides which component to show based on the current URL.*/}
+      <Route exact path='/' element={<Home />}></Route>
+      <Route exact path='/expiriences' element={<ExpiriencePage />}></Route>
+    </Routes>
+        
   );
 }
 

@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Inter";
+  src: local("Inter"), url("../fonts/Inter.ttf") format("truetype");
+  font-weight: normal;
+}
+
+.home-wrapper {
+  background-color: white;
+  display: grid;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.header-container {
+  grid-column: 1 / 3;
+  grid-row: 1;
+}
+
+.body-container {
+  grid-column: 3 / 3;
+  grid-row: 2 / 3;
+}
+
+.body-content {
+  font-family: "Inter";
+  color: white;
+  text-align: left;
+  padding: 8px;
+}

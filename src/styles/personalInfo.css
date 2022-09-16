@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Inter";
+  src: local("Inter"), url("../fonts/Inter.ttf") format("truetype");
+  font-weight: normal;
+}
+
+.header-information-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.information-row {
+  margin-left: 20px;
+  padding-top: 5px;
+  font-size: 32px;
+  font-family: "Inter";
+}
