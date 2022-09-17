@@ -9,7 +9,7 @@ function App() {
 
     <Routes> {/* The Switch decides which component to show based on the current URL.*/}
       <Route exact path='/' element={<Home />}></Route>
-      <Route exact path='/expiriences' element={<ExpiriencePage />}></Route>
+      <Route exact path='/experiences' element={<ExpiriencePage />}></Route>
     </Routes>
         
   );

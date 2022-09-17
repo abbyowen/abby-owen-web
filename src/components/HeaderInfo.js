@@ -17,7 +17,7 @@ export function HeaderInfo(props) {
                 <PersonalInfo icon="ant-design:code-outlined" text="Software Engineer" style={{color: "#CD0F32"}} icon_height="50" icon_width="50"/>
                 <PersonalInfo icon="bx:book-heart" text="New York Times Crossword Puzzles, Tennis, Creative Writing" style={{color: "#C90FCD"}} icon_height="50" icon_width="50"/>
                 <div className="nav-container">
-                    <NavButton navTo="/expiriences" text="Expiriences" style={{background: "linear-gradient(90deg, rgba(15, 171, 205, 1) 0%, rgba(27, 199, 12, 1))"}}/>
+                    <NavButton navTo="/experiences" text="Experiences" style={{background: "linear-gradient(90deg, rgba(15, 171, 205, 1) 0%, rgba(27, 199, 12, 1))"}}/>
                     <NavButton navTo='/' text="Projects" style={{background: "linear-gradient(90deg, rgba(236,16,55,1) 0%, rgba(250,0,255,1))"}}/>
                 </div>
             </div>
