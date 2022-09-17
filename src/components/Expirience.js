@@ -38,7 +38,7 @@ export function Expirience(props) {
                     icon_width="50"
                 />
                 <ul className="des-content" style={{fontSize: props.list_size}}>
-                    {itemList};
+                    {itemList}
                 </ul>
                 <Description
                     color={props.color} 
@@ -49,7 +49,7 @@ export function Expirience(props) {
                     icon_width="50"
                 />
                 <ul className="des-content" style={{fontSize: props.list_size}}>
-                    {skillsList};
+                    {skillsList}
                 </ul>
             </div>
         </div>
