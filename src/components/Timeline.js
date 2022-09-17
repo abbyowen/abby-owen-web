@@ -4,10 +4,14 @@ import { Icon } from '@iconify/react';
 export function Timeline(props) {
     return (
         <div className="timeline-container">
-            <Icon style={{color: props.color}} icon="carbon:time" height="30" width="30" />
             <div className="time-row" style={{color: props.color}}>
+                <div className='clock-container'>
+                    <Icon style={{color: props.color}} icon="clarity:clock-solid" height="30" width="30" />
+                </div>
                 {props.start}
-                <Icon style={{color: props.color, MarginLeft: "5px", MarginRight: "5px"}} icon="akar-icons:arrow-right-thick" height="15" width="15" />
+                <div className='arrow-container'>
+                    <Icon style={{color: props.color}} icon="bxs:right-arrow-circle" height="20" width="20" />
+                </div>
                 {props.end}
             </div>
         </div>       

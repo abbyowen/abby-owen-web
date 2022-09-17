@@ -1,21 +1,30 @@
-.text-container {
-  margin-top: 5px;
-  width: 100px;
-  margin-bottom: 0px;
-}
-
 .timeline-container {
   display: flex;
   flex-direction: row;
-  width: 300px;
-  height: 100px;
   margin-right: auto;
   margin-left: auto;
 }
 
 .time-row {
-  margin-left: 10px;
-  margin-top: 1px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  flex-direction: row;
+  margin-top: 3px;
   font-size: 20px;
   font-family: "Inter";
+  font-style: italic;
+}
+
+.arrow-container {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 2px;
+}
+
+.clock-container {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 0px;
 }

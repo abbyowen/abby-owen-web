@@ -32,6 +32,15 @@ export function ExpiriencePage(props) {
     var ibm_start = "May 2022";
     var ibm_end = "Present";
 
+    var ta_start = "June 2021";
+    var ta_end = "June 2022";
+
+    var plandek_start = "January 2021";
+    var plandek_end = "May 2021";
+    
+    var pinboard_start = "January 2021";
+    var pinboard_end = "March 2021";
+
 
 
     return (
@@ -47,7 +56,7 @@ export function ExpiriencePage(props) {
                             skills={ibm_skills}
                             start={ibm_start}
                             end={ibm_end}
-                            list_size="19px"
+                            list_size="21px"
                         />
                         <Expirience 
                             header="CS Teaching Assistant, Dartmouth" 
@@ -55,9 +64,9 @@ export function ExpiriencePage(props) {
                             size="23px" 
                             bullets={ta_bullets}
                             skills={ta_skills}
-                            start={ibm_start}
-                            end={ibm_end}
-                            list_size="17px"
+                            start={ta_start}
+                            end={ta_end}
+                            list_size="20px"
                         />
                         <Expirience 
                             header="Data Science Intern, Plandek" 
@@ -65,9 +74,9 @@ export function ExpiriencePage(props) {
                             size="25px" 
                             bullets={plandek_bullets}
                             skills={plandek_skills}
-                            start={ibm_start}
-                            end={ibm_end}
-                            list_size="18px"
+                            start={plandek_start}
+                            end={plandek_end}
+                            list_size="20px"
                         />
                         <Expirience 
                         header="Research Intern, Pinboard" 
@@ -75,9 +84,9 @@ export function ExpiriencePage(props) {
                         size="25px" 
                         bullets={pinboard_bullets}
                         skills={pinboard_skills}
-                        start={ibm_start}
-                        end={ibm_end}
-                        list_size="21px"
+                        start={pinboard_start}
+                        end={pinboard_end}
+                        list_size="23px"
                     />
                     </div>
                 </div>
