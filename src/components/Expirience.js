@@ -15,7 +15,6 @@ export function Expirience(props) {
         skillsList.push( <li key={j}>{props.skills[j]}</li>);
 
     };
-
     return (
         <div className="body-container">
             <div className="expirience-container">
@@ -27,9 +26,9 @@ export function Expirience(props) {
                     icon_height="40" 
                     icon_width="40"
                 />
-                <Timeline start={props.start} end={props.end}/>
-                    
-        
+                
+                
+                <Timeline color={props.color} start={props.start} end={props.end}></Timeline>
                 <Description
                     color={props.color} 
                     icon="fluent:text-description-20-filled"
@@ -38,7 +37,7 @@ export function Expirience(props) {
                     icon_height="50" 
                     icon_width="50"
                 />
-                <ul className="des-content">
+                <ul className="des-content" style={{fontSize: props.list_size}}>
                     {itemList};
                 </ul>
                 <Description
@@ -49,7 +48,7 @@ export function Expirience(props) {
                     icon_height="50" 
                     icon_width="50"
                 />
-                <ul className="des-content">
+                <ul className="des-content" style={{fontSize: props.list_size}}>
                     {skillsList};
                 </ul>
             </div>

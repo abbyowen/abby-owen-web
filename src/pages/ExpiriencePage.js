@@ -20,7 +20,7 @@ export function ExpiriencePage(props) {
                             "Implemented machine learning processes in both Python and R", 
                             "Presented statistical modelings to teams of engineers and company leaders"];
     var pinboard_bullets = ["Introduced technical solutions to improve automation and efficiency of company outreach processes", 
-                            "Audited site and app content and recommended ways to improve UI/UX"]
+                            "Audited site and app content and recommended ways to improve UI/UX"];
     
     // Skills Info
     var ibm_skills = ["React.js", "Java", "SQL", "Adobe XD", "Collaborative Development"];
@@ -47,6 +47,7 @@ export function ExpiriencePage(props) {
                             skills={ibm_skills}
                             start={ibm_start}
                             end={ibm_end}
+                            list_size="19px"
                         />
                         <Expirience 
                             header="CS Teaching Assistant, Dartmouth" 
@@ -56,6 +57,7 @@ export function ExpiriencePage(props) {
                             skills={ta_skills}
                             start={ibm_start}
                             end={ibm_end}
+                            list_size="17px"
                         />
                         <Expirience 
                             header="Data Science Intern, Plandek" 
@@ -65,6 +67,7 @@ export function ExpiriencePage(props) {
                             skills={plandek_skills}
                             start={ibm_start}
                             end={ibm_end}
+                            list_size="18px"
                         />
                         <Expirience 
                         header="Research Intern, Pinboard" 
@@ -74,6 +77,7 @@ export function ExpiriencePage(props) {
                         skills={pinboard_skills}
                         start={ibm_start}
                         end={ibm_end}
+                        list_size="21px"
                     />
                     </div>
                 </div>
